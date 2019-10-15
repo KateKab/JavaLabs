@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 public class Summator {
 
-    private static final int SIZE = 20;
-    private static final int LENGTH = 10;
     private static final int DIVIDER = 2;
 
     private int[] array;
@@ -21,18 +19,6 @@ public class Summator {
             }
         }
         return sum;
-    }
-
-    public int[] generateArray() {
-        int[] array = new int[SIZE];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = ((int) (Math.random() * SIZE) - LENGTH);
-        }
-        return array;
-    }
-
-    public void printArray() {
-        System.out.println(Arrays.toString(array));
     }
 
     public void setArray(int[] array) {
