@@ -1,4 +1,4 @@
-package ru.rsreu;
+package com.epam.team8.Lesson7;
 
 import static org.junit.Assert.assertTrue;
 
